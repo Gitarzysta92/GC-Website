@@ -1,0 +1,104 @@
+body.animations .mobile_toggle.once {
+	opacity: 0;
+}
+
+body.animations .mobile_toggle.once span::before {
+	margin-left: -10px;
+	transition-delay: 2s; /* Safari */
+     
+}
+
+body.animations .mobile_toggle.once span {
+	margin-left:90px;
+}
+
+body.animations .mobile_toggle.once span::after {
+	margin-left: 10px;
+}
+
+body.animations .corner-logo {
+	display: none;
+}
+
+/* slider animation - section pager */
+body.animations .bx-pager a {
+	opacity: 0;
+}
+
+/* slider animation - section main content */
+body.animations .bx-wrapper {
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+/* slider animation - section inner container */
+
+.box.right.unload .title-wraper {
+	opacity: 0;
+	margin-right: 100px;
+	transition: all 0.3s ease-in-out;
+}
+
+.box.left.unload .title-wraper {
+	opacity: 0;
+	margin-left: 100px;
+	transition: all 0.3s ease-in-out;
+}
+.box.left .title-wraper, .box.right .title-wraper  {opacity: 1; transition: all 0.3s ease-in-out; transition-delay: 0.8s;margin-left: 0px;margin-right: 0px; }
+
+body.animations .slider-inner h1, .slider-inner h1, .box.left.unload h1 {
+	opacity: 0;
+	margin-left: 100px;
+	transition: all 0.3s ease-in-out;
+	transition-delay: 0.8s;
+}
+.box h1 { transition: all 0.3s ease-in-out; transition-delay: 0.8s;}
+.box.right.unload h1 { opacity: 0; margin-right: 100px; }
+
+.box.left.unload h3, .box.left.unload button{
+	opacity: 0;
+	margin-left: 100px;
+	transition: all 0.3s ease-in-out;
+	transition-delay: 0.4s;
+}
+.box h3, .box button { transition: all 0.3s ease-in-out; transition-delay: 0.4s; }
+.box.right.unload h3, .box.left.unload button { opacity: 0; margin-right: 100px; }
+
+body.animations .slider-inner h4, .slider-inner h4, .box.left.unload h4{
+	opacity: 0;
+	margin-left: 100px;
+	transition: all 0.3s ease-in-out;
+	transition-delay: 1s;
+}
+.box h4 { transition: all 0.3s ease-in-out; transition-delay: 1s; }
+.box.right.unload h4 { opacity: 0; margin-right: 100px; }
+
+body.animations .slider-inner svg, .slider-inner svg, .box.left.unload svg  {
+	opacity: 0;
+	margin-left: 100px;
+	transition: all 0.3s ease-in-out;
+	transition-delay: 1.2s;
+}
+.box svg { transition: all 0.3s ease-in-out; transition-delay: 1.2s;}
+.box.right.unload svg  { opacity: 0; margin-right: 100px; }
+
+.box .title-wraper svg  { transition: none;}
+/* slider animation - scroll inner container */
+
+.active-slide .slider-inner h1, .active-slide .slider-inner h4, .active-slide .slider-inner svg, body.animations .active-slide .slider-inner h1, body.animations .active-slide .slider-inner h4, body.animations .active-slide .slider-inner svg, .box.left h1, .box.left h4, .box.left svg {
+	opacity: 1;
+	margin-left: 0px;
+}
+
+.box.right h1, .box.right h4, .box.right svg {
+	margin-right: 0px;
+}
+
+
+
+
+/* box button - animation */
+
+.box.button.right:hover svg,  .box.button.right:hover h1, .box.button.right:hover h4 {
+	margin-right:100px;
+}
+
